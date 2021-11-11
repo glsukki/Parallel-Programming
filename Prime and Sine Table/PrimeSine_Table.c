@@ -2,15 +2,20 @@
 #include<math.h>
 #include<string.h>
 
+
+//  Arrays to store the Prime and Sine values
 int primes[1000];
 double sines[1000];
 
 
-
+// Function to check if a number is prime or not and then append it to the "primes" array if it is a Prime Number
 void primeTable(int size){
-    int i, j, k;
+    int i, j;
+    // p - is used for indexing the "primes" array
+    // isPrime - is used as a flag
     int p, isPrime;
 
+    // first prime number starts with - 2 - hence i = 2
     i = 2;
     p = 0;
 
@@ -31,6 +36,8 @@ void primeTable(int size){
     }
 }
 
+// Function to calculate the sine values till the mentioned size.
+// M_PI - is equivalent to = 3.1415... 
 
 void sineTable(int size){
     int i;
