@@ -27,7 +27,7 @@ void main(){
 }
 
 
-// Information regarding Private Clauses in Open MP
+// // Information regarding Private Clauses in Open MP
 // https://nanxiao.gitbooks.io/openmp-little-book/content/posts/private-firstprivate-and-lastprivate-clauses.html
 
 
