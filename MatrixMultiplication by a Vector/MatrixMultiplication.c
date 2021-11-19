@@ -13,6 +13,7 @@ void displayMatrix(int resultantMatrix[], int rowSize){
 }
 
 
+
 void matrixMultiplication(int matrix[][100], int rowSize, int columnSize, int vector[]){
     int parallelResult[100];
     int serialResult[100];
