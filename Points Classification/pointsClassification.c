@@ -44,7 +44,6 @@ void classify_points() {
         }
   printf("%ld %ld belongs to %d %d \n", datapoints[i][0],datapoints[i][1],cluster[cluster_index][0],cluster[cluster_index][1]);
                 cluster_count[cluster_index]++;
-        
     }
 }
 
