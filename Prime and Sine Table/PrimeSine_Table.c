@@ -53,7 +53,6 @@ int main(){
     printf("Enter the size of the Prime & Sine - Table : ");
     scanf("%d", &size);
 
-
     // Running both the Prime and Sine functions in Parallel
     #pragma omp parallel sections
     {
