@@ -28,6 +28,7 @@ int merge(int array[], int lowerLimit, int mid, int upperLimit){
     j = 0; // Initial index of the second subArray - secondSubArray
     k = lowerLimit; // initial index of the merged subArray
 
+    
     while(i < size_1 && j < size_2){
         if(leftSubArray[i] <= rightSubArray[j]){
             array[k] = leftSubArray[i];
